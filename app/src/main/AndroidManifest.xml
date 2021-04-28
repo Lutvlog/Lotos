@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.vlad_project">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="@xml/backup_descriptor"
+        android:icon="@drawable/logop1"
+        android:label="Лотос Парк"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Gal99" />
+        <activity android:name=".Gal79" />
+        <activity android:name=".Gal75" />
+        <activity android:name=".Gal67" />
+        <activity android:name=".Gal435" />
+        <activity android:name=".Gal438" />
+        <activity android:name=".interyeri" />
+        <activity android:name=".Social" />
+        <activity android:name=".Documents" />
+        <activity android:name=".Test" />
+        <activity android:name=".GalleryInt" />
+        <activity android:name=".GalleryBul" />
+        <activity android:name=".GalleryArcht" />
+        <activity android:name=".FullImageActivity" />
+        <activity android:name=".News2" />
+        <activity android:name=".News1" />
+        <activity android:name=".Threeroomactivity" />
+        <activity android:name="flats.Room99" />
+        <activity android:name="flats.Room79" />
+        <activity android:name="flats.Room75" />
+        <activity android:name="flats.Room67" />
+        <activity android:name="flats.Room435" />
+        <activity android:name="flats.Room43" />
+        <activity android:name=".Tworoomactivity" />
+        <activity android:name=".Oneroomactivity" />
+        <activity
+            android:name=".Planirovki_2"
+            android:label="@string/title_activity_planirovki_2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Bulvari" />
+        <activity android:name=".infrastucture" />
+        <activity android:name=".MessageSendler" />
+        <activity android:name=".Planirovki" />
+        <activity android:name=".Dolshiki" />
+        <activity android:name=".News" />
+        <activity android:name=".MainActivity"/>
+
+    </application>
+
+</manifest>
